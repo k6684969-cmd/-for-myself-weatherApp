@@ -134,7 +134,7 @@ const App: React.FC = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
-  const [scrollPercentage, setScrollPercentage] = useState(0);
+  const [_scrollPercentage, setScrollPercentage] = useState(0);
   const [velocity, setVelocity] = useState(0);
   const [lastX, setLastX] = useState(0);
   const [lastTime, setLastTime] = useState(0);
